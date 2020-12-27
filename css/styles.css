@@ -1,0 +1,79 @@
+/* GENERAL */
+body{
+  background: #183C5C;
+  color: white;
+  /*font-family: Georgia, Times, Times New Roman, serif  sans-serif;*/
+  /*font-family:SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;}*/
+  font-family: Candara, Calibri, Segoe, Segoe UI, Optima, Arial, sans-serif;
+}
+
+
+p{
+  margin-bottom: 0px;
+  margin-left: : 100px;
+  font-size: 1.5rem;
+}
+
+/* FONDO */
+
+.fondo{
+  background: white;
+}
+
+img{
+  width: 100%;
+}
+
+nav{
+  background: #D02222;
+  letter-spacing: 5px;
+}
+
+/* BEBIDAS */
+
+.micheladas{
+  margin-top: 20px;
+}
+
+.tequila{
+  margin-top: 20px;
+}
+
+.ron{
+  margin-top: 20px;
+}
+
+.vodka{
+  margin-top: 20px;
+}
+
+.whiski{
+  margin-top: 20px;
+
+}
+
+.sn{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* PIE DE PÁGINA */
+
+.pie{
+  border-top: solid 1px white;
+  padding-top: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: Georgia, Times, Times New Roman, serif  sans-serif;
+  font-size: 8;
+}
+
+.piepag {
+  font-size: 1rem;
+  text-align: center;
+}
+
+ul{
+  text-align: center;
+}
+
