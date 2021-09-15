@@ -1,10 +1,37 @@
 /* GENERAL */
 body{
-  background: #183C5C;
-  color: white;
+  background: #FFD143;
+  color: black;
   /*font-family: Georgia, Times, Times New Roman, serif  sans-serif;*/
   /*font-family:SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;}*/
   font-family: Candara, Calibri, Segoe, Segoe UI, Optima, Arial, sans-serif;
+
+ 
+}
+@keyframes anim{
+    0% {
+    left: 0;
+    top: 0;
+  }
+  10% {
+    left: 5rem;
+    top: 0rem;
+    color: black;
+  }
+  30% {
+    top: 5rem;
+    left: 5rem;
+    color: white;
+  }
+  60%{
+    top: 5rem;
+    left: 0;
+    color: black;
+  }
+  100% {
+    top: 0;
+    left: 0;
+  }
 }
 
 
@@ -25,36 +52,58 @@ img{
 }
 
 nav{
-  background: #D02222;
+  background: #FF5A1D;
   letter-spacing: 5px;
 }
 
 /* BEBIDAS */
-
-.micheladas{
-  margin-top: 20px;
+.imagen1{
+  margin-top: 15px;
 }
+.cajeta1{
+  margin-top: 10px;
 
-.tequila{
-  margin-top: 20px;
-}
-
-.ron{
-  margin-top: 20px;
-}
-
-.vodka{
-  margin-top: 20px;
-}
-
-.whiski{
-  margin-top: 20px;
 
 }
 
-.sn{
-  margin-top: 20px;
+.piña1{
+  margin-top: 0px;
+}
+
+.fresa1{
+  margin-top: 0px;
+}
+
+.crema1{
+  margin-top: 0px;
+}
+
+.zarzamora1{
+  margin-top: 0px;
+
+}
+
+.nutella1{
+  margin-top: 0px;
+}
+
+.combinada21{
+  margin-top: 0px;
+}
+.combinada31{
+  margin-top: 0px;
+}
+
+.surtida1{
+  margin-top: 0px;
   margin-bottom: 20px;
+
+}
+a#caj{
+  .cajeta1{
+    background-color: white;
+  }
+  
 }
 
 /* PIE DE PÁGINA */
