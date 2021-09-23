@@ -50,11 +50,3 @@ window.sr = ScrollReveal();
 		reset: 1000
 
 	}); 
-
-	sr.reveal('.logoItem', {
-		duration: 1500, //tiempo
-		origin: 'left', //origen
-		distance: '-100px', //distancia
-		reset: 1000
-
-	}); 
