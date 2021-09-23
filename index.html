@@ -8,410 +8,241 @@
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Gluten&family=Russo+One&display=swap" rel="stylesheet">
+    <script src="js/scrollreveal.js"></script>
 	<script src="https://kit.fontawesome.com/9b95a5c077.js" crossorigin="anonymous"></script>
-	<title>DELEITE</title>
-	<link rel="shortcut icon" href="img/empanadas2.png"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script type='text/javascript'>
+$(document).ready(function(){ 
+    $(window).scroll(function(){ 
+        if ($(this).scrollTop() > 100) { 
+            $('#scroll').fadeIn(); 
+        } else { 
+            $('#scroll').fadeOut(); 
+        } 
+    }); 
+    $('#scroll').click(function(){ 
+        $("html, body").animate({ scrollTop: 0 }, 600); 
+        return false; 
+    }); 
+});
+</script>
+	<title>KALA-QR</title>
+	<link rel="shortcut icon" href="img/LOGO.jpg"/>
 	
 
+    
+
 </head>
+
+
 <body>
 
-	<section class="fondo" id="fondo">
-		<div class="container">
-			<div class="row">
-				<div class="col-sm">
-					<img src="img/logotipo.png">
-				</div>
-			</div>
-		</div>
-	</section>
+ <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+        <div class="container">
+            <!--Menu para celulares, diseño responsivo-->
+             <a class="logo navbar-brand" href="#"><img src="img/LOGO14.png" width="25" height="30"></a>
+            <button class="logo navbar-toggler" id="btnMenu" type="button" data-toggle="collapse" data-target="#Navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+           
+            <div class="collapse navbar-collapse" id="Navbar">
+                <ul class="navbar-nav mr-auto ml-auto">
+                    <li class="nav-item active" data-toggle="collapse" data-target=".navbar-collapse.show"><a class="nav-link" href="#inicio" ><span class="fa fa-home fa-lg"></span> Inicio</a></li>
+                    <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse"><a class="nav-link" href="#catalogoMenu" ><span class="fa fa-list fa-lg"></span> Catálogo</a></li>
+                    <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show"><a class="nav-link" href="#preciosMenu" ><span class="fa fa-money fa-lg"></span> Precios</a></li>
+                    <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show"><a class="nav-link" href=#pie ><span class="fa fa-address-card fa-lg"></span> Contacto</a></li>
+                </ul>
+
+            
+                
+            </div>
+
+        </div>
+    </nav>
+        
+
+    </header>
 
 
-
-	<section class="buttons" id="buttons">
-		<div class="main-menu">
-            <nav class="navbar navbar-expand-xlg navbar-dark">
-                <div class="container">
-                    <a class="navbar-brand" href="#">SABORES</a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation" 
-                    onClick="document.getElementById('cambiaCaj').style.color='black';
-                            document.getElementById('cambiaCajPre').style.color='black';
-                            document.getElementById('cambiaPiñ').style.color='black';
-                            document.getElementById('cambiaPrePi').style.color='black';
-                            document.getElementById('cambiaFre').style.color='black';
-                            document.getElementById('cambiaPreFre').style.color='black';
-                            document.getElementById('cambiaCre').style.color='black';
-                            document.getElementById('cambiaPreCre').style.color='black';
-                            document.getElementById('cambiaNut').style.color='black';
-                            document.getElementById('cambiaPreNut').style.color='black';
-                            document.getElementById('cambiaZar').style.color='black';
-                            document.getElementById('cambiaPreZar').style.color='black';
-                            document.getElementById('cambiaCom2').style.color='black';
-                            document.getElementById('cambiaPreCom2').style.color='black';
-                            document.getElementById('cambiaCom3').style.color='black';
-                            document.getElementById('cambiaPreCom3').style.color='black';
-                            document.getElementById('cambiaSur').style.color='black';
-                            document.getElementById('cambiaPreSur').style.color='black';">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                        <div class="navbar-nav">
-                            <a class="nav-link" href="#cajeta" type="button" onClick="document.getElementById('cambiaCaj').style.color='#FF5A1D';
-                            document.getElementById('cambiaCajPre').style.color='#FF5A1D';
-                            document.getElementById('cambiaPiñ').style.color='black';
-                            document.getElementById('cambiaPrePi').style.color='black';
-                            document.getElementById('cambiaFre').style.color='black';
-                            document.getElementById('cambiaPreFre').style.color='black';
-                            document.getElementById('cambiaCre').style.color='black';
-                            document.getElementById('cambiaPreCre').style.color='black';
-                            document.getElementById('cambiaNut').style.color='black';
-                            document.getElementById('cambiaPreNut').style.color='black';
-                            document.getElementById('cambiaZar').style.color='black';
-                            document.getElementById('cambiaPreZar').style.color='black';
-                            document.getElementById('cambiaCom2').style.color='black';
-                            document.getElementById('cambiaPreCom2').style.color='black';
-                            document.getElementById('cambiaCom3').style.color='black';
-                            document.getElementById('cambiaPreCom3').style.color='black';
-                            document.getElementById('cambiaSur').style.color='black';
-                            document.getElementById('cambiaPreSur').style.color='black';">CAJETA</a>
-                            <a class="nav-link" href="#piña" onClick="document.getElementById('cambiaPiñ').style.color='#FF5A1D';
-                            document.getElementById('cambiaPrePi').style.color='#FF5A1D';
-                            document.getElementById('cambiaCaj').style.color='black';
-                            document.getElementById('cambiaCajPre').style.color='black';
-                            document.getElementById('cambiaFre').style.color='black';
-                            document.getElementById('cambiaPreFre').style.color='black';
-                            document.getElementById('cambiaCre').style.color='black';
-                            document.getElementById('cambiaPreCre').style.color='black';
-                            document.getElementById('cambiaNut').style.color='black';
-                            document.getElementById('cambiaPreNut').style.color='black';
-                            document.getElementById('cambiaZar').style.color='black';
-                            document.getElementById('cambiaPreZar').style.color='black';
-                            document.getElementById('cambiaCom2').style.color='black';
-                            document.getElementById('cambiaPreCom2').style.color='black';
-                            document.getElementById('cambiaCom3').style.color='black';
-                            document.getElementById('cambiaPreCom3').style.color='black';
-                            document.getElementById('cambiaSur').style.color='black';
-                            document.getElementById('cambiaPreSur').style.color='black';">PIÑA</a>
-                            <a class="nav-link" href="#fresa" onClick="document.getElementById('cambiaFre').style.color='#FF5A1D';
-                            document.getElementById('cambiaPreFre').style.color='#FF5A1D';
-                            document.getElementById('cambiaCaj').style.color='black';
-                            document.getElementById('cambiaCajPre').style.color='black';
-                            document.getElementById('cambiaPiñ').style.color='black';
-                            document.getElementById('cambiaPrePi').style.color='black';
-                            document.getElementById('cambiaCre').style.color='black';
-                            document.getElementById('cambiaPreCre').style.color='black';
-                            document.getElementById('cambiaNut').style.color='black';
-                            document.getElementById('cambiaPreNut').style.color='black';
-                            document.getElementById('cambiaZar').style.color='black';
-                            document.getElementById('cambiaPreZar').style.color='black';
-                            document.getElementById('cambiaCom2').style.color='black';
-                            document.getElementById('cambiaPreCom2').style.color='black';
-                            document.getElementById('cambiaCom3').style.color='black';
-                            document.getElementById('cambiaPreCom3').style.color='black';
-                            document.getElementById('cambiaSur').style.color='black';
-                            document.getElementById('cambiaPreSur').style.color='black';">FRESA</a>
-                            <a class="nav-link" href="#crema" onClick="document.getElementById('cambiaCre').style.color='#FF5A1D';
-                            document.getElementById('cambiaPreCre').style.color='#FF5A1D';
-                            document.getElementById('cambiaCaj').style.color='black';
-                            document.getElementById('cambiaCajPre').style.color='black';
-                            document.getElementById('cambiaPiñ').style.color='black';
-                            document.getElementById('cambiaPrePi').style.color='black';
-                            document.getElementById('cambiaFre').style.color='black';
-                            document.getElementById('cambiaPreFre').style.color='black';
-                            document.getElementById('cambiaNut').style.color='black';
-                            document.getElementById('cambiaPreNut').style.color='black';
-                            document.getElementById('cambiaZar').style.color='black';
-                            document.getElementById('cambiaPreZar').style.color='black';
-                            document.getElementById('cambiaCom2').style.color='black';
-                            document.getElementById('cambiaPreCom2').style.color='black';
-                            document.getElementById('cambiaCom3').style.color='black';
-                            document.getElementById('cambiaPreCom3').style.color='black';
-                            document.getElementById('cambiaSur').style.color='black';
-                            document.getElementById('cambiaPreSur').style.color='black';">CREMA PASTELERA</a>
-                            <a class="nav-link" href="#nutella" onClick="document.getElementById('cambiaNut').style.color='#FF5A1D';
-                            document.getElementById('cambiaPreNut').style.color='#FF5A1D';
-                            document.getElementById('cambiaCaj').style.color='black';
-                            document.getElementById('cambiaCajPre').style.color='black';
-                            document.getElementById('cambiaPiñ').style.color='black';
-                            document.getElementById('cambiaPrePi').style.color='black';
-                            document.getElementById('cambiaFre').style.color='black';
-                            document.getElementById('cambiaPreFre').style.color='black';
-                            document.getElementById('cambiaCre').style.color='black';
-                            document.getElementById('cambiaPreCre').style.color='black';
-                            document.getElementById('cambiaZar').style.color='black';
-                            document.getElementById('cambiaPreZar').style.color='black';
-                            document.getElementById('cambiaCom2').style.color='black';
-                            document.getElementById('cambiaPreCom2').style.color='black';
-                            document.getElementById('cambiaCom3').style.color='black';
-                            document.getElementById('cambiaPreCom3').style.color='black';
-                            document.getElementById('cambiaSur').style.color='black';
-                            document.getElementById('cambiaPreSur').style.color='black';">NUTELLA C / NUEZ</a>
-                            <a class="nav-link notranslate" href="#zarzamora" onClick="document.getElementById('cambiaZar').style.color='#FF5A1D';
-                            document.getElementById('cambiaPreZar').style.color='#FF5A1D';
-                            document.getElementById('cambiaCaj').style.color='black';
-                            document.getElementById('cambiaCajPre').style.color='black';
-                            document.getElementById('cambiaPiñ').style.color='black';
-                            document.getElementById('cambiaPrePi').style.color='black';
-                            document.getElementById('cambiaFre').style.color='black';
-                            document.getElementById('cambiaPreFre').style.color='black';
-                            document.getElementById('cambiaCre').style.color='black';
-                            document.getElementById('cambiaPreCre').style.color='black';
-                            document.getElementById('cambiaNut').style.color='black';
-                            document.getElementById('cambiaPreNut').style.color='black';
-                            document.getElementById('cambiaCom2').style.color='black';
-                            document.getElementById('cambiaPreCom2').style.color='black';
-                            document.getElementById('cambiaCom3').style.color='black';
-                            document.getElementById('cambiaPreCom3').style.color='black';
-                            document.getElementById('cambiaSur').style.color='black';
-                            document.getElementById('cambiaPreSur').style.color='black';">ZARZAMORA C / QUESO PHILADELPHIA</a>
-                            <a class="nav-link" href="#combinada2" onClick="document.getElementById('cambiaCom2').style.color='#FF5A1D';
-                            document.getElementById('cambiaPreCom2').style.color='#FF5A1D';
-                            document.getElementById('cambiaCaj').style.color='black';
-                            document.getElementById('cambiaCajPre').style.color='black';
-                            document.getElementById('cambiaPiñ').style.color='black';
-                            document.getElementById('cambiaPrePi').style.color='black';
-                            document.getElementById('cambiaFre').style.color='black';
-                            document.getElementById('cambiaPreFre').style.color='black';
-                            document.getElementById('cambiaCre').style.color='black';
-                            document.getElementById('cambiaPreCre').style.color='black';
-                            document.getElementById('cambiaNut').style.color='black';
-                            document.getElementById('cambiaPreNut').style.color='black';
-                            document.getElementById('cambiaZar').style.color='black';
-                            document.getElementById('cambiaPreZar').style.color='black';
-                            document.getElementById('cambiaCom3').style.color='black';
-                            document.getElementById('cambiaPreCom3').style.color='black';
-                            document.getElementById('cambiaSur').style.color='black';
-                            document.getElementById('cambiaPreSur').style.color='black';">COMBINADA 2 SABORES</a>
-                            <a class="nav-link" href="#combinada3" onClick="document.getElementById('cambiaCom3').style.color='#FF5A1D';
-                            document.getElementById('cambiaPreCom3').style.color='#FF5A1D';
-                            document.getElementById('cambiaCaj').style.color='black';
-                            document.getElementById('cambiaCajPre').style.color='black';
-                            document.getElementById('cambiaPiñ').style.color='black';
-                            document.getElementById('cambiaPrePi').style.color='black';
-                            document.getElementById('cambiaFre').style.color='black';
-                            document.getElementById('cambiaPreFre').style.color='black';
-                            document.getElementById('cambiaCre').style.color='black';
-                            document.getElementById('cambiaPreCre').style.color='black';
-                            document.getElementById('cambiaNut').style.color='black';
-                            document.getElementById('cambiaPreNut').style.color='black';
-                            document.getElementById('cambiaZar').style.color='black';
-                            document.getElementById('cambiaPreZar').style.color='black';
-                            document.getElementById('cambiaCom2').style.color='black';
-                            document.getElementById('cambiaPreCom2').style.color='black';
-                            document.getElementById('cambiaSur').style.color='black';
-                            document.getElementById('cambiaPreSur').style.color='black';">COMBINADA 3 SABORES</a>
-                            <a class="nav-link" href="#surtida" onClick="document.getElementById('cambiaSur').style.color='#FF5A1D';
-                            document.getElementById('cambiaPreSur').style.color='#FF5A1D';
-                            document.getElementById('cambiaCaj').style.color='black';
-                            document.getElementById('cambiaCajPre').style.color='black';
-                            document.getElementById('cambiaPiñ').style.color='black';
-                            document.getElementById('cambiaPrePi').style.color='black';
-                            document.getElementById('cambiaFre').style.color='black';
-                            document.getElementById('cambiaPreFre').style.color='black';
-                            document.getElementById('cambiaCre').style.color='black';
-                            document.getElementById('cambiaPreCre').style.color='black';
-                            document.getElementById('cambiaNut').style.color='black';
-                            document.getElementById('cambiaPreNut').style.color='black';
-                            document.getElementById('cambiaZar').style.color='black';
-                            document.getElementById('cambiaPreZar').style.color='black';
-                            document.getElementById('cambiaCom2').style.color='black';
-                            document.getElementById('cambiaPreCom2').style.color='black';
-                            document.getElementById('cambiaCom3').style.color='black';
-                            document.getElementById('cambiaPreCom3').style.color='black';">CAJA SURTIDA</a>
-                        </div>
+<section class="imagen1" id="inicio">
+            <div class="container mt-5">
+                <div class="row align-items-center mt-5">
+                    <div class=" atrevete col-12 col-md-6">
+                        <h1 class="text-light text-center text-md-left">Actualizate, date a conocer</h1>
+                        <h5  class="text-light text-center text-md-left font-weight-light pt-3 mr-3">Desarrollamos tu propio código QR, con un diseño responsivo que se adapta a cualquier smarthphone. Ideal para menus digitales o brindar información sobre tu negocio. </h5>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div><img src="img/giphy-unscreen.gif" width="70" height="500"></div>
                     </div>
                 </div>
-            </nav>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 190" style="padding: 0 !important">
+                <path fill="white" fill-opacity="1"
+                    d="M0,192L120,165.3C240,139,480,85,720,85.3C960,85,1200,139,1320,165.3L1440,192L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z">
+                </path>
+            </svg>
+
+    </section>
+
+
+
+	<section class="catalogoMenu" id="catalogoMenu">
+			<div class="catalogo col col-xlg">
+
+                    <h2 class="text-center mb-2 mb-md-2">Catálogo</h2>
+                    <h5  class="text-dark text-center text-md-center font-weight-light pt-0 mr-1">¡Que esperas! Echa un vistazo a nuestro trabajo, escanea los siguientes codigos.</h5>
+            </div>
+		</div>
+	</section>
+
+<section class="buttonsCatalogo" id="buttons">
+        <div class="container">
+            <div class="navbar navbar-expand-xlg navbar-dark">
+                <div class="col-6 col-md-4">               
+                    <a class="navbar-brand" href="#"><img src="img/logotipoDeleite.png">
+                        </a>                 
+                </div>
+                <div class="col-6 col-md-4">
+                    <a class="navbar-brand" href="#"> <img class="cod" src="img/codigoDeleite.png"> 
+                        </a>                                 
+                </div>
+            </div>
         </div>
-	</section>
+    </section>
+   
+    <hr>
+    <section class="buttonsCatalogo" id="buttons">
+        <div class="container">
+            <div class="navbar navbar-expand-xlg navbar-dark">
+                <div class="col-6 col-md-4">               
+                    <a class="navbar-brand" href="#"><img src="img/logotipoMiches.png">
+                        </a>                 
+                </div>
+                <div class="col-6 col-md-4">
+                    <a class="navbar-brand" href="#"> <img class="cod" src="img/codigoMiches.png"> 
+                        </a>                                 
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+     <section class="buttonsCatalogo" id="buttons">
+        <div class="container">
+            <nav1 class="navbar navbar-expand-xlg navbar-dark">
+               <div class="col-6 col-md-4">                  
+                    <a class="navbar-brand" href="#"><img src="img/logotipoDonChico.png">
+                        </a>               
+                </div>
+                <div class="col-6 col-md-4"">
+                    <a class="navbar-brand" href="#"> <img class="cod" src="img/codigoDonChico.png"> 
+                        </a>                                       
+                </div>
+            </nav1>
+        </div>
+    </section>
+<br>
+<section class="preciosMenu" id="preciosMenu">
+            <div class="precios col">
 
-<section class="imagen1" id="imagen">
-		<div class="container">
-			<div class="col">
-          	<img src="img/empanadas.png">
+                    <h2 class="text-center mb-2 mb-md-2">Precios</h2>
+                    <h5  class="text-dark text-center text-md-center font-weight-light pt-0 mr-1">Checa nuestros accesibles precios y animate a llamarnos.</h5>
             </div>
-		</div>
-	</section>
-	<section class="cajeta1" id="cajeta">
-		<div class="container">
-			<div class="col">
-          	
-            </div>
-			<div class="row notranslate">
-				<div class="col-9">
-					<p id="cambiaCaj">Cajeta</p>
-					<hr>
-				</div>
-				<div class="col">
-					<p id="cambiaCajPre">$110</p>
-					
-				</div>
-			</div>
-		</div>
-	</section>
+                    </div>
+    </section> 
 
-	<section class="piña1" id="piña">
-		<div class="container">
-			<div class="col">
+    </section>
+    <section class="pricing-table">
+            <div class="container">
+                <div class="row justify-content-md-center">
+                    <div class="col-md-5 col-lg-4">
+                        <div class="item">
+                            <div class="heading">
+                                <h3>SENCILLO</h3>
+                            </div>
+                            <p>Menú digital de máximo 15 platillos y pocas imágenes o brindar alguna información pequeña al público sobre tu negocio, ofertas, vales de descuento, contacto, etc. Código QR no personalizado, diseño sencillo.<br></p>
+                            <div class="features">
+                                <h4><span class="feature"></span> <span class="value">Duración ilimitada.</span></h4>
+                                <!-- <h4><span class="feature"></span> <span class="value">Cualquier actualización futura por un pequeño costo (dependiendo de la actualización), no tendrás que volver a realizar el mismo pago.</span></h4>-->
+                                <h4><span class="feature">¡Obtenlo ahora!</span> <span class="value"></span></h4>
+                                <h4><span class="feature">Un solo pago de:</span> <span class="value"></span></h4>
+                            </div>
+                            <div class="price">
+                                <h4>$699</h4>
+                            </div>
+                            <form action="https://wa.me//526182037550?text=Hola%20necesito%20informacion">
+        <button class="btn btn-block btn-outline-primary" type="submit">WhatsApp</button>
+</form>
+                            
+                        </div>
+                    </div>
+                    <div class="col-md-5 col-lg-4">
+                        <div class="item">
+                            <div class="ribbon">Mejor Valor</div>
+                            <div class="heading">
+                                <h3>PREMIUM</h3>
+                            </div>
+                            <p>Menú digital de más de 15 platillos e imágenes a tu gusto o brindar la informacion que tu quieras al público sobre tu negocio, ofertas, vales de descuento, contacto, etc. Código QR personalizado, diseño profesional.</p>
+                            <div class="features">
+                                <h4><span class="feature"></span> <span class="value">Duración ilimitada.</span></h4>
+                                <!-- <h4><span class="feature"></span> <span class="value">Cualquier actualización futura por un pequeño costo (dependiendo de la actualización), no tendrás que volver a realizar el mismo pago.</span></h4>-->
+                                <h4><span class="feature">¡Obtenlo ahora!</span> <span class="value"></span></h4>
+                                <h4><span class="feature">Un solo pago de:</span> <span class="value"></span></h4>
+                            </div>
+                            <div class="price">
+                                <h4>$1499</h4>
+                            </div>
+                            <button class="btn btn-block btn-primary" type="submit" href="https://wa.me//526182037550?text=Hola%20necesito%20informacion">WhatsApp</button>
+                        </div>
+                    </div>
+                   
+                </div>
+            </div>
+        </section>
+<a href="https://wa.me//526182037550?text=Hola%20necesito%20informacion" class="float" target="_blank">
+<i class="fa fa-whatsapp my-float"></i>
+<a href="javascript:void(0);" id="scroll" title="Scroll to Top" style="display: none;">Top<span></span></a>
 
-            </div>
-			<div class="row notranslate">
-				<div class="col-9">
-					<p id="cambiaPiñ">Piña</p>
-					<hr>
-				</div>
-				<div class="col">
-					
-					<p id="cambiaPrePi">$90</p>
-					
-					
-				</div>
-			</div>
-		</div>
-	</section>
-	<section class="fresa1" id="fresa">
-		<div class="container">
-			<div class="col">
-            </div>
-			<div class="row notranslate">
-				<div class="col-9">
-					<p id="cambiaFre">Fresa</p>
-					<hr>
-				</div>
-				<div class="col">
-					<p id="cambiaPreFre">$90</p>
-					
-				</div>
-			</div>
-		</div>
-	</section>
-	<section class="crema1" id="crema">
-		<div class="container">
-			<div class="col">
-               
-            </div>
-			<div class="row notranslate">
-				<div class="col-9">
-					<p id="cambiaCre">Crema Pastelera</p>
-					<hr>
-				</div>
-				<div class="col">
-					<p id="cambiaPreCre">$90</p>
-					
-				</div>
-			</div>
-		</div>
-	</section>
-	<section class="nutella1" id="nutella">
-		<div class="container">
-			<div class="col">
-                
-            </div>
-			<div class="row notranslate">
-				<div class="col-9">
-					<p id="cambiaNut">Nutella C / Nuez</p>
-					<hr>
-				</div>
-				<div class="col">
-					<p id="cambiaPreNut">$120</p>
-					
-				</div>
-			</div>
-		</div>
-	</section>
-	<section class="zarzamora1" id="zarzamora">
-		<div class="container">
-			<div class="col">
-                
-            </div>
-			<div class="row notranslate">
-				<div class="col-9">
-					<p class="notranslate" id="cambiaZar">Zarzamora C / Queso Philadelphia</p>
-					<hr>
-				</div>
-				<div class="col">
-					<p id="cambiaPreZar">$110</p>
-					
-									
-				</div>
-			</div>
-		</div>
-	</section>
-	<section class="combinada21" id="combinada2">
-		<div class="container">
-			<div class="col">
-                
-            </div>
-			<div class="row notranslate">
-				<div class="col-9">
-					<p id="cambiaCom2">Combinada 2 Sabores</p>
-					<hr>
-				</div>
-				<div class="col">				
-					<p id="cambiaPreCom2">$95</p>
-					
-				</div>
-			</div>
-		</div>
-	</section>
-	<section class="combinada31" id="combinada3">
-		<div class="container">
-			<div class="col">
-               
-            </div>
-			<div class="row notranslate">
-				<div class="col-9">
-					<p id="cambiaCom3">Combinada 3 Sabores</p>
-					<hr>
-				</div>
-				<div class="col">
-					<p id="cambiaPreCom3">$110</p>
-					
-				</div>
-			</div>
-		</div>
-	</section>
-	<section class="surtida1" id="surtida">
-		<div class="container">
-			<div class="col">
-                
-            </div>
-			<div class="row notranslate">
-				<div class="col-9">
-					<p id="cambiaSur">Caja Surtida</p>
-					<hr>
-				</div>
-				<div class="col">
-					<p id="cambiaPreSur">$115</p>
-					
-				</div>
-			</div>
-		</div>
-	</section>
-
-
+</a>
+</a>
 	<section class="pie" id="pie">
 		<div class="container">
-			<div class="row">
-				<div class="col">
-					<p class="piepag">Dolores del Rio #102 B Norte</p>
-					<p class="piepag">Entre Canoas y Aquiles Serdán, 34075</p>
-					<p class="piepag">Victoria de Durango, México</p>
-					<p class="piepag">CONTÁCTANOS: </p>
+			
+				<div class="piepagina col">
+					<p class="piepag text-light text-center text-md-center font-weight-light pt-0 mr-1">Desarrollador:</p>
+					<p class="piepag text-light text-center text-md-center font-weight-light pt-0 mr-1">I.S.C. Oscar Ivan Barron Gloria</p>
+					<p class="piepag text-light text-center text-md-center font-weight-light pt-0 mr-1">Victoria de Durango, México</p>
+					<p class="piepag text-light text-center text-md-center font-weight-light pt-0 mr-1">CONTÁCTANOS: </p>
+
 					<ul class="list-unstyled basic-info">
-                            <li><i class="fas fa-phone-square-alt"></i> (618) 356 3178</li>
-                            <li><i class="fab fa-facebook-square"></i> Deleite</li>
+                            <li><i class="fab fa-whatsapp"></i> <a href="https://wa.me//526182037550?text=Hola%20necesito%20informacion">(618) 203 7550</a></li>
+                            <!--<li><i class="fab fa-facebook"></i> <a href="https://www.facebook.com/Deleite-103394438414533">Kala-QR</a></li>-->
                     </ul>
-                   
-				</div>
-			</div>
+
+                    <br>
+                
+               
+           
+                
+			
+
+
 		</div>
+       <div class="logoItem col-6 col-md-3">
+                    <img src="img/LOGO14.png">
+ 
+                </div>
+                
 	</section>
+  
 
 
 	<!-- JavaScript -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script src="js/index.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 </body>
 </html>
