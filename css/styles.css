@@ -183,7 +183,7 @@ ul{
   margin-bottom: 30px; 
 }
 
-.pricing-table .item button {
+.pricing-table .item .button {
   font-weight: 600; 
 }
 
@@ -225,7 +225,7 @@ ul{
   color: #005BC0; 
 }
 
-.pricing-table .buy-now button {
+.pricing-table .buy-now .button {
   text-align: center;
   margin: auto;
   font-weight: 600;
