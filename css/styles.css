@@ -34,12 +34,35 @@ img{
 nav{
   background: #005BC0;
   letter-spacing: 0px;
-  
   top:0;
   text-align: center;
-  vertical-align: center;
   width: 100%;
+}
 
+ul{
+  text-align: center;
+  z-index: 99;
+
+  
+}
+
+.nav-link {
+    font-weight: 700;
+    font-size: 1.2rem;
+    transition: 5s;
+    margin-right: 1rem;
+    margin: 5px;
+    
+
+    }
+    .nav-link: hover {
+    font-weight: 700;
+    font-size: 1.2rem;
+    transition: 5s;
+    margin-right: 1rem;
+    margin: 5px;
+    height: 100vh;
+    
 }
 .atrevete{
   margin-top: 50px;
@@ -113,26 +136,8 @@ h4{
   z-index: -1;
 }
 
-ul{
-  text-align: center;
-  z-index: 99;
 
-  
-}
 
-.nav-link {
-
-    font-weight: 700;
-    font-size: 1.2rem;
-    transition: 0.4s;
-    margin-right: 1rem;
-    margin: 5px;
-    
-}
-
-.nav-link:hover {
-    transform: translateY(-5px)
-}
 
 @import url("https://fonts.googleapis.com/css?family=Montserrat");
 
@@ -266,7 +271,7 @@ ul{
 #scroll {
     position:fixed;
     bottom:70px;
-  right:10px;
+    right:10px;
     cursor:pointer;
     width:50px;
     height:50px;
@@ -311,4 +316,5 @@ ul{
   text-align: center;
   z-index: -1;
 }
+
 

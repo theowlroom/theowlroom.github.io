@@ -58,3 +58,11 @@ window.sr = ScrollReveal();
 		reset: 1000
 
 	}); 
+
+	sr.reveal('.pricing-table', {
+		duration: 1500, //tiempo
+		origin: 'top', //origen
+		distance: '-100px', //distancia
+	
+
+	}); 
