@@ -3,7 +3,7 @@
   width: 100%;
 
   overflow-x: hidden;
-    
+    scrollbar-color: yellow #800080;
 }
 
 p{
@@ -72,12 +72,11 @@ margin-bottom: 0px;
   color: #121D25;
   margin-top: 30px;
 }
-.table{
+.table {
   background: #0389A6;
   position: sticky;
-  top:0;
- 
-  
+  margin-bottom: 9.1px;
+  top:0; 
 }
 
 
