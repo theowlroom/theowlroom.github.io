@@ -69,16 +69,15 @@ margin-bottom: 0px;
  
 }
 .menu{
-   background: transparent;
   color: #121D25;
   margin-top: 30px;
 }
 .table{
-  position: -webkit-sticky;
+  background: red;
   position: sticky;
   top:0;
  
-  background: #0389A6;
+  
 }
 
 
