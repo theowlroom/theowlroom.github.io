@@ -41,10 +41,11 @@ div.container-fluid{
 }
 .logo{
 width: 100%;
-  background:#0389A6; 
+background:#0389A6; 
 z-index: -1;
 margin-top: 0px;
 margin-bottom: 0px;
+position: center;
 
 }
 
