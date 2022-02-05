@@ -41,7 +41,7 @@ div.container-fluid{
 }
 .logo{
 width: 100%;
-background:#0389A6; 
+background:black; 
 z-index: -1;
 margin-top: 0px;
 margin-bottom: 0px;
@@ -50,16 +50,16 @@ position: center;
 }
 
 .titulo{
-  font-family: 'Oleo Script Swash Caps', sans-serif;
-  color: #E7342F;
+  font-family: 'Rowdies', sans-serif;
+  color: #FF3902;
 
 
 }
 
 .btn{
   text-decoration:none;
-  color:#121D25;
-  border-color: #121D25;
+  color:white;
+  border-color: white;
 }
 
 
@@ -74,7 +74,7 @@ position: center;
   margin-top: 30px;
 }
 .table {
-  background: #0389A6;
+  background: black;
   position: sticky;
   margin-bottom: 9px;
   top:0; 
@@ -94,7 +94,9 @@ margin-top: 0px;
 
 }
 
-
+.precio{
+  margin-left: -20px;
+}
 #scroll {
     position:fixed;
     bottom:10px;
@@ -102,7 +104,7 @@ margin-top: 0px;
     cursor:pointer;
     width:50px;
     height:50px;
-    background-color:black;
+    background-color:#909090;
     border-color: white;
     text-indent:-9999px;
     display:none;
@@ -122,18 +124,18 @@ margin-top: 0px;
     border-bottom-color:#ffffff;
 }
 #scroll:hover {
-    background-color:#e74c3c;
+    background-color:#FF3902;
     opacity:1;filter:"alpha(opacity=100)";
     -ms-filter:"alpha(opacity=100)";
 }
 .pie{
-  background: #0389A6;
+  background: black;
   border-top: solid 1px white;
   padding-top: 20px;
   margin-top: 0px;
   margin-bottom: 0px;
   font-size: 1.1rem;
-  color:#121D25;
+  color:white;
   position:relative;
   z-index: -1;
   text-decoration:none;
@@ -148,8 +150,13 @@ margin-top: 0px;
   font-family: 'Oleo Script Swash Caps', sans-serif;
 
 }
-
-
-
-}
-
+.center{display:table;width:100%;background-color: black;
+margin-top:-25px;
+margin-bottom:;}
+#social-test{display:table-cell;vertical-align:middle;text-align:center;font-size:30px}
+#social-test h2{color:#fff;font-family:Futura,"Trebuchet MS",Arial,sans-serif;font-weight:100}
+#social-test .social{padding-left:0}
+#social-test a{color:#909090;list-style-type:none;display:inline-block;width:50px;height:50px;line-height:50px;padding:1%;border:1px solid rgba(167,146,129,.4);cursor:pointer;margin-left:10px;margin-bottom:20px;transition:ease .3s}
+#social-test a:hover{color:#fff;border:1px solid #ccc}
+.social:hover>a{opacity:.5}
+.social:hover>a:hover{opacity:1}
