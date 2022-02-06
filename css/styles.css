@@ -48,10 +48,12 @@ margin-bottom: 0px;
 position: center;
 
 }
-
+.menuDigital{
+  margin-top: -80px;
+}
 .titulo{
   font-family: 'Rowdies', sans-serif;
-  color: #FF3902;
+  color: #1D3528;
 
 
 }
@@ -89,7 +91,15 @@ z-index: -1;
 margin-top: 0px;
 
   font-family: 'Quicksand', sans-serif;
-  font-size: 17px;
+  font-size: 15px;
+
+
+}
+
+.cuerpo2{
+
+  font-family: 'Quicksand', sans-serif;
+  font-size: 13px;
 
 
 }
@@ -97,6 +107,7 @@ margin-top: 0px;
 .precio{
   margin-left: -20px;
 }
+
 #scroll {
     position:fixed;
     bottom:10px;
@@ -131,8 +142,6 @@ margin-top: 0px;
 .pie{
   background: black;
   border-top: solid 1px white;
-  padding-top: 20px;
-  margin-top: 0px;
   margin-bottom: 0px;
   font-size: 1.1rem;
   color:white;
