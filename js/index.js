@@ -1,13 +1,6 @@
 window.sr = ScrollReveal();
 
-	sr.reveal('.logo', {
-		duration: 1500, //tiempo
-		origin: 'bottom', //origen
-		distance: '-50px', //distancia
-		
-
-
-	}); 
+	
 	sr.reveal('.menu', {
 		duration: 1500, //tiempo
 		origin: 'bottom', //origen
