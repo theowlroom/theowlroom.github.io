@@ -3,7 +3,6 @@
   width: 100%;
 
   overflow-x: hidden;
-    scrollbar-color: yellow #800080;
 }
 
 p{
@@ -39,9 +38,10 @@ div.row{
 div.container-fluid{
    padding-right: 0px;
 }
+
 .logo{
 width: 100%;
-background:black; 
+background:white; 
 z-index: -1;
 margin-top: 0px;
 margin-bottom: 0px;
@@ -49,11 +49,11 @@ position: center;
 
 }
 .menuDigital{
-  margin-top: -80px;
+  margin-top: -50px;
 }
 .titulo{
-  font-family: 'Rowdies', sans-serif;
-  color: #1D3528;
+  font-family: 'Archivo', sans-serif;
+  color: #7E4C0D ;
 
 
 }
@@ -73,16 +73,20 @@ position: center;
 }
 .menu{
   color: #121D25;
-  margin-top: 30px;
+  font-family: 'Questrial', sans-serif;
+  margin-top: 0px;
 }
 .table {
   background: black;
   position: sticky;
+  color:black;
   margin-bottom: 9px;
   top:0; 
 }
 
-
+.badge{
+  background-color: black;
+}
 .cuerpo{
 width: 100%;
   background: transparent; 
@@ -90,21 +94,22 @@ width: 100%;
 z-index: -1;
 margin-top: 0px;
 
-  font-family: 'Quicksand', sans-serif;
-  font-size: 15px;
+  font-family: 'Questrial', sans-serif;
+  font-size: 20px;
 
 
 }
 
 .cuerpo2{
 
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Questrial', sans-serif;
   font-size: 13px;
 
 
 }
 
 .precio{
+
   margin-left: -20px;
 }
 
