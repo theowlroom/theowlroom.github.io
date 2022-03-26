@@ -54,6 +54,7 @@ position: center;
 .titulo{
   font-family: 'Archivo', sans-serif;
   color: #7E4C0D ;
+  
 
 
 }
@@ -93,9 +94,8 @@ width: 100%;
   color:#121D25;
 z-index: -1;
 margin-top: 0px;
-
   font-family: 'Questrial', sans-serif;
-  font-size: 20px;
+  font-size: 17px;
 
 
 }
@@ -106,6 +106,20 @@ margin-top: 0px;
   font-size: 13px;
 
 
+
+}
+@media (max-width:320px){
+  
+.cuerpo2{
+
+  font-family: 'Questrial', sans-serif;
+  font-size: 10px;
+
+}
+.badge{
+  font-size: 9px;
+ 
+}
 }
 
 .precio{
