@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Gluten&family=Russo+One&display=swap" rel="stylesheet">
+    <script src="js/scrollreveal.js"></script>
+    <script src="https://kit.fontawesome.com/9b95a5c077.js" crossorigin="anonymous"></script>
+     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+   <link href="https://fonts.googleapis.com/css2?family=Alata&family=Paytone+One&family=Righteous&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Aclonica&family=Archivo+Black&family=Candal&family=Fira+Sans+Extra+Condensed:wght@300&family=Fredoka+One&family=Lilita+One&family=Mitr:wght@300&family=Niconne&family=Oleo+Script+Swash+Caps:wght@700&family=Titan+One&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Adamina&family=Anek+Kannada:wght@500&family=Cormorant+Garamond:wght@300;500&family=Crete+Round&family=Nunito+Sans&family=Sorts+Mill+Goudy&display=swap" rel="stylesheet">
+
+    <script type='text/javascript'>
+$(document).ready(function(){ 
+    $(window).scroll(function(){ 
+        if ($(this).scrollTop() > 100) { 
+            $('#scroll').fadeIn(); 
+        } else { 
+            $('#scroll').fadeOut(); 
+        } 
+    }); 
+    $('#scroll').click(function(){ 
+        $("html, body").animate({ scrollTop: 0 }, 600); 
+        return false; 
+    }); 
+
+    $('a[href^="#"]').click(function() {
+    var destino = $(this.hash);
+    if (destino.length == 0) {
+      destino = $('a[name="' + this.hash.substr(1) + '"]');
+    }
+    if (destino.length == 0) {
+      destino = $('html');
+    }
+    $('html, body').animate({ scrollTop: destino.offset().top }, 500);
+    return false;
+  });
+
+ $('.navbar-nav>li>a').on('click', function(){
+    $('.navbar-collapse').collapse('hide');
+});
+   
+});
+
+
+</script>
+	<title>Servicios - The Owl Room</title>
+	<link rel="shortcut icon" href="img/logo33.png"/>
+</head>
+<body translate="no" style="background-size: 100% ; background-image: url(img/.png)">
+
+
+    </header>
+<section class="logo col-12" id="brandy">
+                    <div class="row justify-content-center">
+                        <img class="col-12 col-lg-3 ml-4 mb-2" src="img/logo11.png" >    
+                         
+        </h5>              
+
+            </div>
+        </section>
+        <nav class="navbar col-12 navbar-dark justify-content-center mb-0" style="background-color: #130F0C;" >
+            <h5 class='menuDigital col-7 col-lg-2 mb-0 text-center text-white' id="barraFria"><li class="fas fa-cocktail"></li> Servicios </h5>
+  <button class="navbar-toggler btnNav col-2 col-lg-1" type="button" data-toggle="collapse" data-target="#navbarNav" >
+    <span class="navIcon fa fa-bars"></span>
+  </button>
+  <h5 class='col-12 col-lg-12 mb-0 text-center text-white' id="barraFria"> -------------*------------- </h5>
+  <div class="collapse navbar-collapse col-12 col-lg-12 " id="navbarNav">
+    <ul class="navbar-nav mr-auto ml-auto ">
+                    <li class="nav-item  mt-2" data-toggle="collapse" data-target=".navbar-collapse.show"><a class="nav-link" href="index.html" ><span class="sr-only">(current)</span><span class="fa fa-home mr-1"></span>Inicio</a></li>
+                    <li class="nav-item active" data-toggle="collapse" data-target=".navbar-collapse.show"><a class="nav-link navbar-dark" href="#" ><span class="fas fa-cocktail mr-1"></span>Servicios</a></li>
+                    <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show"><a class="nav-link" href="cocteleria.html" ><span class="fas fa-cocktail mr-1"></span>Coctelería</a></li>
+                    <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show"><a class="nav-link" href=cocina.html ><span class="fa fa-cutlery mr-1"></span>Cocina</a></li>
+                    
+                    
+                </ul>      
+  </div>
+</nav>
+
+            <nav class="table-responsive sticky-top ">
+
+            <table class="table">
+            
+                
+               <tbody>
+                    <tr class="d-flex justify-content-center"> 
+                        <td><a href="#brandy"><button type='button' class='btn btn-outline-light font-weight-normal menuBanner text-uppercase text-nowrap' id='Postres'><i class='mr-1 fas fa-cocktail'></i>BRANDY</button></a></td>
+                        <td><a href="#cognac"><button type='button' class='btn btn-outline-light font-weight-normal menuBanner text-uppercase text-nowrap' id='Postres'><i class='mr-1 fas fa-cocktail'></i>COGÑAC</button></a></td> 
+                        <td><a href="#ginebra"><button type='button' class='btn btn-outline-light font-weight-normal menuBanner text-uppercase text-nowrap' id='Postres'><i class='mr-1 fas fa-cocktail'></i>GINEBRA</button></a></td>
+                        <td><a href="#ron"><button type='button' class='btn btn-outline-light font-weight-normal menuBanner text-uppercase text-nowrap' id='Comida'><i class='mr-1 fas fa-cocktail'></i>RON</button></a></td>
+                        <td><a href="#whisky"><button type='button' class='btn btn-outline-light font-weight-normal menuBanner text-uppercase text-nowrap' id='Postres'><i class='mr-1 fas fa-cocktail'></i>WHISKY</button></a></td>
+                        <td><a href="#tequila"><button type='button' class='btn btn-outline-light font-weight-normal menuBanner text-uppercase text-nowrap' id='Bebidas'><i class='mr-1 fas fa-cocktail'></i>TEQUILA</button></a></td>
+                        <td><a href="#vodka"><button type='button' class='btn btn-outline-light font-weight-normal menuBanner text-uppercase text-nowrap' id='Postres'><i class='mr-1 fas fa-cocktail'></i>VODKA</button></a></td>
+                         <td><a href="#licores"><button type='button' class='btn btn-outline-light font-weight-normal menuBanner text-uppercase text-nowrap' id='Bebidas'><i class='mr-1 fas fa-cocktail'></i>LICORES</button></a></td>
+                         <td><a href="#mezcal"><button type='button' class='btn btn-outline-light font-weight-normal menuBanner text-uppercase text-nowrap' id='Postres'><i class='mr-1 fas fa-cocktail'></i>MEZCAL</button></a></td> 
+                        <td><a href="#sotol"><button type='button' class='btn btn-outline-light font-weight-normal menuBanner text-uppercase text-nowrap' id='Postres'><i class='mr-1 fas fa-cocktail'></i>SOTOL</button></a></td>
+                        
+                       
+                        
+
+                        
+
+                        
+                        
+                        
+    
+
+                    </tr>
+                </tbody>
+            </table>
+        </nav>    
+       
+        <!------------------------------------------------------------------->
+        <div class="row justify-content-center align-items-center ml-0 text-lg-center mt-3 ">
+                     <h5 class='titulo col-7 mb-0 mt-0' ><li class='mr-1 fas fa-cocktail'></li>BRANDY
+        </h5> 
+
+        <h6 class='cuerpo2 col-5  mt-1 align-items-center'  >TRAGO / BOTELLA
+        </h6>   
+    </div>
+    <div class="container col-11">
+     <hr> 
+ </div>
+    <div class="row justify-content-left align-items-center ml-0 text-lg-center" id="cognac">
+            <h5 class='cuerpo col-7 col-lg-6"' >*Torres 10</h5>
+            <h6 class="col-5 align-items-center "><span class="badge badge-pill badge-secondary ml-0">$70</span>
+            <span class="badge badge-pill badge-secondary ml-1">$950</span></h6>
+        </div>
+    <div class="row justify-content-left align-items-center ml-0 text-lg-center">
+            <h5 class='cuerpo col-7 col-lg-6"' >*Torres 5</h5>
+            <h6 class="col-5"><span class="badge badge-pill badge-secondary ml-0">$60</span>
+            <span class="badge badge-pill badge-secondary ml-1">$750</span></h6>
+        </div>
+       
+<!--------------------------------------------------------------->
+
+<div class="row justify-content-center ml-0 text-lg-center mt-3 ">
+                     <h5 class='titulo col-7 mb-0 mt-0' ><li class='mr-1 fas fa-cocktail'></li>COGÑAC
+        </h5>   
+        <h6 class='cuerpo2 col-5 mb-0 mt-1 align-items-center'  >TRAGO / BOTELLA
+        </h6>   
+    </div>
+      <div class="container col-11">
+     <hr> 
+ </div>
+    <div class="row justify-content-left ml-0 text-lg-center" >
+            <h5 class='cuerpo col-7 col-lg-6"' >*HENNESSY V.S.</h5>
+            <h6 class="col-5"><span class="badge badge-pill badge-secondary ml-0">$100</span>
+            <span class="badge badge-pill badge-secondary ml-1">$1,550</span></h6>
+        </div>
+        <div class="row justify-content-left ml-0 text-lg-center" i>
+            <h5 class='cuerpo col-7 col-lg-6"' >*HENNESSY V.S.O.P.</h5>
+            <h6 class="col-5"><span class="badge badge-pill badge-secondary ml-0">$120</span>
+            <span class="badge badge-pill badge-secondary ml-1">$2,000</span></h6>
+        </div>
+        <div class="row justify-content-left ml-0 text-lg-center" id="ginebra">
+            <h5 class='cuerpo col-7 col-lg-6"' >*Martell V.S.</h5>
+            <h6 class="col-5"><span class="badge badge-pill badge-secondary ml-0" >$90</span>
+            <span class="badge badge-pill badge-secondary ml-1">$1,400</span></h6>
+        </div>
+    <div class="row justify-content-left ml-0 text-lg-center" >
+            <h5 class='cuerpo col-7 col-lg-6"' >*Martell V.S.O.P.</h5>
+            <h6 class="col-5"><span class="badge badge-pill badge-secondary ml-0">$120</span>
+            <span class="badge badge-pill badge-secondary ml-1">$1,900</span></h6>
+        </div>
+    
+   <!------------------------------------------------------------------->
+<div class="row justify-content-center ml-0 text-lg-center mt-3 ">
+                     <h5 class='titulo col-7 mb-0 mt-0' ><li class='mr-1 fas fa-cocktail'></li>GINEBRA
+        </h5>   
+        <h6 class='cuerpo2 col-5 mb-0 mt-1 align-items-center'  >TRAGO / BOTELLA
+        </h6>   
+    </div>
+     <div class="container col-11">
+     <hr> 
+ </div>
+    <div class="row justify-content-left ml-0 text-lg-center" id="">
+            <h5 class='cuerpo col-7 col-lg-6"' >*Bombay Sapphire</h5>
+            <h6 class="col-5"><span class="badge badge-pill badge-secondary ml-0">$80</span>
+            <span class="badge badge-pill badge-secondary ml-2">$1,350</span></h6>
+        </div>
+    
+        <div class="row justify-content-left ml-0 text-lg-center" id="ron">
+            <h5 class='cuerpo col-7 col-lg-6"' >*Tanqueray London Dry Gin</h5>
+            <h6 class="col-5"><span class="badge badge-pill badge-secondary ml-0" >$90</span>
+            <span class="badge badge-pill badge-secondary ml-2">$1,500</span></h6>
+        </div>
+        <div class="row justify-content-left ml-0 text-lg-center">
+            <h5 class='cuerpo col-7 col-lg-6"' >*Hendrick´s</h5>
+            <h6 class="col-5"><span class="badge badge-pill badge-secondary ml-0">$120</span>
+            <span class="badge badge-pill badge-secondary ml-1">$1,750</span></h6>
+        </div>
+        
+        
+       
+<!------------------------------------------------------------------->
+  <!------------------------------------------------------------------->
+<div class="row justify-content-center ml-0 text-lg-center mt-3 ">
+                     <h5 class='titulo col-7 mb-0 mt-0' ><li class='mr-1 fas fa-cocktail'></li>RON
+        </h5>   
+        <h6 class='cuerpo2 col-5 mb-0 mt-1 align-items-center'  >TRAGO / BOTELLA
+        </h6>   
+    </div>
+     <div class="container col-11">
+     <hr> 
+ </div>
+    <div class="row justify-content-left ml-0 text-lg-center" >
+            <h5 class='cuerpo col-7 col-lg-6"' >*Appleton Estate </h5>
+            <h6 class="col-5"><span class="badge badge-pill badge-secondary ml-0">$60</span>
+            <span class="badge badge-pill badge-secondary ml-2">$750</span></h6>
+        </div>
+        <div class="row justify-content-left ml-0 text-lg-center">
+            <h5 class='cuerpo col-7 col-lg-6"' >*Bacardi Blanco</h5>
+            <h6 class="col-5"><span class="badge badge-pill badge-secondary ml-0">$60</span>
+            <span class="badge badge-pill badge-secondary ml-2">$750</span></h6>
+        </div>
+        <div class="row justify-content-left ml-0 text-lg-center" >
+            <h5 class='cuerpo col-7 col-lg-6"' >*Kraken Black Spiced</h5>
+            <h6 class="col-5"><span class="badge badge-pill badge-secondary ml-0">$55</span>
+            <span class="badge badge-pill badge-secondary ml-1">$650</span></h6>
+        </div>
+        <div class="row justify-content-left ml-0 text-lg-center" >
+            <h5 class='cuerpo col-7 col-lg-6"' >*Capitan Morgan Original</h5>
+            <h6 class="col-5"><span class="badge badge-pill badge-secondary ml-0">$70</span>
+            <span class="badge badge-pill badge-secondary ml-2">$750</span></h6>
+        </div>
+        <div class="row justify-content-left ml-0 text-lg-center">
+            <h5 class='cuerpo col-7 col-lg-6"' >*Zacapa 23</h5>
+            <h6 class="col-5"><span class="badge badge-pill badge-secondary ml-0">N/A</span>
+            <span class="badge badge-pill badge-secondary ml-2">$2,000</span></h6>
+        </div>
+        <div class="row justify-content-left ml-0 text-lg-center" id="whisky">
+            <h5 class='cuerpo col-7 col-lg-6"' >*Zacapa 12</h5>
+            <h6 class="col-5"><span class="badge badge-pill badge-secondary ml-0" >$90</span>
+            <span class="badge badge-pill badge-secondary ml-2">$1,400</span></h6>
+        </div>
+        <div class="row justify-content-left ml-0 text-lg-center">
+            <h5 class='cuerpo col-7 col-lg-6"' >*Havana Club 7 Años</h5>
+            <h6 class="col-5"><span class="badge badge-pill badge-secondary ml-0">$70</span>
+            <span class="badge badge-pill badge-secondary ml-2">$1,000</span></h6>
+        </div>
+        
+        
+        
+
+<!------------------------------------------------------------------->
+<!------------------------------------------------------------------->
+<div class="row justify-content-center ml-0 text-lg-center mt-3 ">
+                     <h5 class='titulo col-7 mb-0 mt-0' ><li class='mr-1 fas fa-cocktail'></li>WHISKY
+        </h5>   
+        <h6 class='cuerpo2 col-5 mb-0 mt-1 align-items-center'  >TRAGO / BOTELLA
+        </h6>   
+    </div>
+     <div class="container col-11">
+     <hr> 
+ </div>
+    <div class="row justify-content-left ml-0 text-lg-center">
+            <h5 class='cuerpo col-7 col-lg-6"' >*Buchanan's 12</h5>
+            <h6 class="col-5"><span class="badge badge-pill badge-secondary ml-0">$110</span>
+            <span class="badge badge-pill badge-secondary ml-1">$1,800</span></h6>
+        </div>
+        <div class="row justify-content-left ml-0 text-lg-center">
+            <h5 class='cuerpo col-7 col-lg-6 mr-1"' >*Buchanan's 18</h5>
+            <h6 class="col-5"><span class="badge badge-pill badge-secondary ml-0">N/A</span>
+            <span class="badge badge-pill badge-secondary ml-2">$2,700</span></h6>
+        </div>
+         <div class="row justify-content-left ml-0 text-lg-center">
+            <h5 class='cuerpo col-7 col-lg-6"' >*Chivas Regal 12</h5>
+            <h6 class="col-5"><span class="badge badge-pill badge-secondary ml-0">$110</span>
+            <span class="badge badge-pill badge-secondary ml-1">$1,800</span></h6>
+        </div>
+
+        <div class="row justify-content-left ml-0 text-lg-center">
+            <h5 class='cuerpo col-7 col-lg-6"' >*Jack Daniel´s</h5>
+            <h6 class="col-5"><span class="badge badge-pill badge-secondary ml-0">$70</span>
+            <span class="badge badge-pill badge-secondary ml-2">$1,050</span></h6>
+        </div>
+        <div class="row justify-content-left ml-0 text-lg-center">
+            <h5 class='cuerpo col-7 col-lg-6"' >*J.W. Black Label</h5>
+            <h6 class="col-5"><span class="badge badge-pill badge-secondary ml-0">$110</span>
+            <span class="badge badge-pill badge-secondary ml-1">$1,800</span></h6>
+        </div>
+        <div class="row justify-content-left ml-0 text-lg-center" id="tequila">
+            <h5 class='cuerpo col-7 col-lg-6"' >*J.W. Red Label</h5>
+            <h6 class="col-5"><span class="badge badge-pill badge-secondary ml-0" >$70</span>
+            <span class="badge badge-pill badge-secondary ml-2">$950</span></h6>
+        </div>
+        <div class="row justify-content-left ml-0 text-lg-center">
+            <h5 class='cuerpo col-7 col-lg-6"' >*The Macallan 12</h5>
+            <h6 class="col-5"><span class="badge badge-pill badge-secondary ml-0">N/A</span>
+            <span class="badge badge-pill badge-secondary ml-1">$2,400</span></h6>
+        </div>
+        
+        
+           
+        
+        
+
+        <!------------------------------------------------------------------->
+    <div class="row justify-content-center ml-0 text-lg-center mt-3 ">
+                     <h5 class='titulo col-7 mb-0 mt-0' ><li class='mr-1 fas fa-cocktail'></li>TEQUILA
+                </h5>   
+        <h6 class='cuerpo2 col-5 mb-0 mt-1 align-items-center'  >TRAGO / BOTELLA
+        </h6>   
+    </div>
+     <div class="container col-11">
+     <hr> 
+ </div>
+    <div class="row justify-content-left ml-0 text-lg-center">
+            <h5 class='cuerpo col-7 col-lg-6"' >*1800 Blanco</h5>
+            <h6 class="col-5"><span class="badge badge-pill badge-secondary ml-0">$70</span>
+            <span class="badge badge-pill badge-secondary ml-1">$950</span></h6>
+        </div>
+        <div class="row justify-content-left ml-0 text-lg-center">
+            <h5 class='cuerpo col-7 col-lg-6"' >*1800 Reposado</h5>
+            <h6 class="col-5"><span class="badge badge-pill badge-secondary ml-0">$70</span>
+            <span class="badge badge-pill badge-secondary ml-1">$1,050</span></h6>
+        </div>
+        <div class="row justify-content-left ml-0 text-lg-center">
+            <h5 class='cuerpo col-7 col-lg-6"' >*1800 Añejo</h5>
+            <h6 class="col-5"><span class="badge badge-pill badge-secondary ml-0">$90</span>
+            <span class="badge badge-pill badge-secondary ml-1">$1,500</span></h6>
+        </div>
+    <div class="row justify-content-left ml-0 text-lg-center">
+            <h5 class='cuerpo col-7 col-lg-6"' >*1800 Cristalino</h5>
+            <h6 class="col-5"><span class="badge badge-pill badge-secondary ml-0">$90</span>
+            <span class="badge badge-pill badge-secondary ml-1">$1,650</span></h6>
+        </div>
+        <div class="row justify-content-left ml-0 text-lg-center">
+            <h5 class='cuerpo col-7 col-lg-6"' >*Don Julio 70 Añejo</h5>
+            <h6 class="col-5"><span class="badge badge-pill badge-secondary ml-0">$140</span>
+            <span class="badge badge-pill badge-secondary ml-1">$2,500</span></h6>
+    </div>
+        
+        
+        <div class="row justify-content-left ml-0 text-lg-center">
+            <h5 class='cuerpo col-7 col-lg-6"' >*Don Julio Blanco</h5>
+            <h6 class="col-5"><span class="badge badge-pill badge-secondary ml-0">$80</span>
+            <span class="badge badge-pill badge-secondary ml-2">$1,200</span></h6>
+        </div>
+        <div class="row justify-content-left ml-0 text-lg-center" >
+            <h5 class='cuerpo col-7 col-lg-6"' >*Don Julio Reposado</h5>
+            <h6 class="col-5"><span class="badge badge-pill badge-secondary ml-0">$80</span>
+            <span class="badge badge-pill badge-secondary ml-2">$1,300</span></h6>
+        </div>
+        <div class="row justify-content-left ml-0 text-lg-center" >
+            <h5 class='cuerpo col-7 col-lg-6"' >* Jose Cuervo Tradicional Plata</h5>
+            <h6 class="col-5"><span class="badge badge-pill badge-secondary ml-0">$60</span>
+            <span class="badge badge-pill badge-secondary ml-2">$850</span></h6>
+        </div>
+        <div class="row justify-content-left ml-0 text-lg-center" id="vodka">
+            <h5 class='cuerpo col-7 col-lg-6"' >*Jose Cuervo Tradicional Reposado</h5>
+            <h6 class="col-5"><span class="badge badge-pill badge-secondary ml-0" >$60</span>
+            <span class="badge badge-pill badge-secondary ml-2">$850</span></h6>
+        </div>
+        <div class="row justify-content-left ml-0 text-lg-center">
+            <h5 class='cuerpo col-7 col-lg-6"' >*Maestro Dobel Diamante</h5>
+            <h6 class="col-5"><span class="badge badge-pill badge-secondary ml-0">$90</span>
+            <span class="badge badge-pill badge-secondary ml-1">$1,650</span></h6>
+        </div>
+
+
+<!------------------------------------------------------------------->
+
+ 
+
+      
+<!------------------------------------------------------------------->
+<div class="row justify-content-center ml-0 text-lg-center mt-3 ">
+                     <h5 class='titulo col-7 mb-0 mt-0' ><li class='mr-1 fas fa-cocktail'></li>VODKA
+        </h5>   
+        <h6 class='cuerpo2 col-5 mb-0 mt-1 align-items-center'  >TRAGO / BOTELLA
+        </h6>   
+    </div>
+     <div class="container col-11">
+     <hr> 
+ </div>
+    <div class="row justify-content-left ml-0 text-lg-center">
+            <h5 class='cuerpo col-7 col-lg-6"' >*Absolut Azul</h5>
+            <h6 class="col-5"><span class="badge badge-pill badge-secondary ml-0">$60</span>
+            <span class="badge badge-pill badge-secondary ml-2">$850</span></h6>
+        </div>
+        <div class="row justify-content-left ml-0 text-lg-center">
+            <h5 class='cuerpo col-7 col-lg-6"' >*Absolut Citron</h5>
+            <h6 class="col-5"><span class="badge badge-pill badge-secondary ml-0">$60</span>
+            <span class="badge badge-pill badge-secondary ml-2">$850</span></h6>
+        </div>
+        <div class="row justify-content-left ml-0 text-lg-center">
+            <h5 class='cuerpo col-7 col-lg-6"' >*Absolut Raspberrie</h5>
+            <h6 class="col-5"><span class="badge badge-pill badge-secondary ml-0">$60</span>
+            <span class="badge badge-pill badge-secondary ml-2">$850</span></h6>
+        </div>
+            <div class="row justify-content-left ml-0 text-lg-center">
+            <h5 class='cuerpo col-7 col-lg-6"' >*Grey Goose</h5>
+            <h6 class="col-5"><span class="badge badge-pill badge-secondary ml-0">$90</span>
+            <span class="badge badge-pill badge-secondary ml-1">$1,500</span></h6>
+        </div>
+        <div class="row justify-content-left ml-0 text-lg-center" >
+            <h5 class='cuerpo col-7 col-lg-6"' >*Smirnoff</h5>
+            <h6 class="col-5"><span class="badge badge-pill badge-secondary ml-0">$60</span>
+            <span class="badge badge-pill badge-secondary ml-2">$700</span></h6>
+        </div>
+         <div class="row justify-content-left ml-0 text-lg-center" id="licores">
+            <h5 class='cuerpo col-7 col-lg-6"' >*Smirnoff Spicy Tamarindo</h5>
+            <h6 class="col-5"><span class="badge badge-pill badge-secondary ml-0" id="">$70</span>
+            <span class="badge badge-pill badge-secondary ml-1">$800</span></h6>
+        </div>
+        <div class="row justify-content-left ml-0 text-lg-center">
+            <h5 class='cuerpo col-7 col-lg-6"' >*Stolinchnaya</h5>
+            <h6 class="col-5"><span class="badge badge-pill badge-secondary ml-0">$700</span>
+            <span class="badge badge-pill badge-secondary ml-2">$800</span></h6>
+        </div>
+       
+
+        <!------------------------------------------------------------------->
+     
+
+
+
+
+         
+<div class="row justify-content-center ml-0 text-lg-center mt-3 ">
+                     <h5 class='titulo col-7 mb-0 mt-0' ><li class='mr-1 fas fa-cocktail'></li>LICOR
+        </h5>   
+        <h6 class='cuerpo2 col-5 mb-0 mt-1 align-items-center'  >TRAGO / BOTELLA
+        </h6>   
+    </div>
+     <div class="container col-11">
+     <hr> 
+ </div>
+     <div class="row justify-content-left ml-0 text-lg-center" >
+            <h5 class='cuerpo col-7 col-lg-6"' >*Amaretto Disaronno</h5>
+            <h6 class="col-5"><span class="badge badge-pill badge-secondary ml-0">$90</span>
+                <span class="badge badge-pill badge-secondary ml-2">N/A</span>
+            </h6>
+        </div>
+        <div class="row justify-content-left ml-0 text-lg-center" >
+            <h5 class='cuerpo col-7 col-lg-6"' >*Frangelico</h5>
+            <h6 class="col-5"><span class="badge badge-pill badge-secondary ml-0">$80</span>
+                <span class="badge badge-pill badge-secondary ml-2">N/A</span>
+            </h6>
+        </div>
+         <div class="row justify-content-left ml-0 text-lg-center">
+            <h5 class='cuerpo col-7 col-lg-6"' >*Baileys</h5>
+            <h6 class="col-5"><span class="badge badge-pill badge-secondary ml-0">$80</span>
+                <span class="badge badge-pill badge-secondary ml-2">$1,200</span>
+            </h6>
+        </div>
+        <div class="row justify-content-left ml-0 text-lg-center" id="mezcal">
+            <h5 class='cuerpo col-7 col-lg-6"' >*Jagermeister</h5>
+            <h6 class="col-5"><span class="badge badge-pill badge-secondary ml-0">$80</span>
+            <span class="badge badge-pill badge-secondary ml-2">$1,350</span></h6>
+        </div>
+        <div class="row justify-content-left ml-0 text-lg-center" >
+            <h5 class='cuerpo col-7 col-lg-6"' >*Licor 43</h5>
+            <h6 class="col-5"><span class="badge badge-pill badge-secondary ml-0">$80</span>
+                <span class="badge badge-pill badge-secondary ml-2">N/A</span>
+            </h6>
+        </div>
+        
+    <div class="row justify-content-left ml-0 text-lg-center">
+            <h5 class='cuerpo col-7 col-lg-6"' >*Hpnotiq</h5>
+            <h6 class="col-5"><span class="badge badge-pill badge-secondary ml-0" id="mezcal">$80</span>
+            <span class="badge badge-pill badge-secondary ml-1">$1,350</span></h6>
+        </div>
+        <div class="row justify-content-left ml-0 text-lg-center">
+            <h5 class='cuerpo col-7 col-lg-6"' >*X Rated</h5>
+            <h6 class="col-5"><span class="badge badge-pill badge-secondary ml-0">$80</span>
+            <span class="badge badge-pill badge-secondary ml-1">1350</span></h6>
+        </div>
+        
+       <!-------------------------------------------------------------------->
+
+              <!------------------------------------------------------------------->
+<div class="row justify-content-center ml-0 text-lg-center mt-3 ">
+                     <h5 class='titulo col-7 mb-0 mt-0' ><li class='mr-1 fas fa-cocktail'></li>MEZCAL
+        </h5>   
+        <h6 class='cuerpo2 col-5 mb-0 mt-1 align-items-center'  >TRAGO / BOTELLA
+        </h6>   
+    </div>
+     <div class="container col-11">
+     <hr> 
+ </div>
+    <div class="row justify-content-left ml-0 text-lg-center">
+            <h5 class='cuerpo col-7 col-lg-6"' >*400 Conejos Espadin Joven</h5>
+            <h6 class="col-5"><span class="badge badge-pill badge-secondary ml-0">$100</span>
+            <span class="badge badge-pill badge-secondary ml-1">$1,400</span></h6>
+        </div>
+        <div class="row justify-content-left ml-0 text-lg-center">
+            <h5 class='cuerpo col-7 col-lg-6"' >*Boscal Damiana</h5>
+            <h6 class="col-5"><span class="badge badge-pill badge-secondary ml-0">$150</span>
+            <span class="badge badge-pill badge-secondary ml-1">N/A</span></h6>
+        </div>
+        <div class="row justify-content-left ml-0 text-lg-center">
+            <h5 class='cuerpo col-7 col-lg-6"' >*Boscal Joven</h5>
+            <h6 class="col-5"><span class="badge badge-pill badge-secondary ml-0">$140</span>
+            <span class="badge badge-pill badge-secondary ml-1">N/A</span></h6>
+        </div>
+    <div class="row justify-content-left ml-0 text-lg-center">
+            <h5 class='cuerpo col-7 col-lg-6"' >*Lagrimas de Dolores Añejo</h5>
+            <h6 class="col-5"><span class="badge badge-pill badge-secondary ml-0" id="sotol">$160</span>
+            <span class="badge badge-pill badge-secondary ml-1">N/A</span></h6>
+        </div>
+    
+        <div class="row justify-content-left ml-0 text-lg-center">
+            <h5 class='cuerpo col-7 col-lg-6"' >*Lagrimas de Dolores Joven</h5>
+            <h6 class="col-5"><span class="badge badge-pill badge-secondary ml-0">$140</span>
+            <span class="badge badge-pill badge-secondary ml-1">N/A</span></h6>
+        </div>
+        
+        
+         <!------------------------------------------------------------------->
+        <!------------------------------------------------------------------->
+<div class="row justify-content-center ml-0 text-lg-center mt-3 ">
+                     <h5 class='titulo col-7 mb-0 mt-0' ><li class='mr-1 fas fa-cocktail'></li>SOTOL
+        </h5>   
+        <h6 class='cuerpo2 col-5 mb-0 mt-1 align-items-center'  >TRAGO / BOTELLA
+        </h6>   
+    </div>
+     <div class="container col-11">
+     <hr> 
+ </div>
+     <div class="row justify-content-left ml-0 text-lg-center" id="shots">
+            <h5 class='cuerpo col-7 col-lg-6"' >*Salvaje</h5>
+            <h6 class="col-5"><span class="badge badge-pill badge-secondary ml-0">$90</span>
+                <span class="badge badge-pill badge-secondary ml-2">N/A</span>
+            </h6>
+        </div>
+
+        
+    
+
+
+       
+    
+        
+    <a href="javascript:void(0);" id="scroll" title="Scroll to Top" style="display: none;">Top<span></span></a>
+</a> 
+
+	<!-----------------------------PIE DE PAGINA------------------------------------------------------> 
+
+
+    <section class="pie" id="pie">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 200">
+            <path fill="#FEFCEA" fill-opacity="1"
+                d="M0,64L120,96C240,128,480,192,720,192C960,192,1200,128,1320,96L1440,64L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z">
+            </path>
+        </svg>
+         <h5 class='aspie col-12 col-lg-12 mb-0 text-center text-white' id="barraFria"> -------------*------------- </h5>
+        <div class="container justify-content-center">
+
+                      <ul class="piepagina list-unstyled basic-info text-center">
+                        <br>
+                        <li><i class="fas fa-map-marker-alt "></i> Blvd. Felipe Pescador 1700 Ote, La Esperanza, 34080 Durango, Dgo.</li>
+                        <li><i class="fas fa-globe-americas "></i> The Owl Room</li>
+                        <li><i class="fab fa-facebook" ></i> The Owl Room </li>
+                        <li><i class="fab fa-instagram mb-5"></i> the.owl.room</li>
+                    </ul>
+
+                  </div>  
+
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 180" style="padding: 0 !important">
+                <path fill="#FEFCEA" fill-opacity="1"
+                    d="M0,192L120,165.3C240,139,480,85,720,85.3C960,85,1200,139,1320,165.3L1440,192L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z">
+                </path>
+            </svg>                     
+    </section>
+ 
+ <!-----------REDES SOCIALES------------>
+
+                <div class="center justify-content-center">
+ <div id="social-test">
+ <div class="social">
+ <a href="https://www.facebook.com/the.owl.room.dgo/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+ <a href="https://instagram.com/the.owl.room?igshid=YmMyMTA2M2Y="><i class="fa fa-instagram" aria-hidden="true"></i></a>
+ <a href="https://theowlroom.mx/"><i class="fas fa-globe-americas" aria-hidden="true"></i></a>
+ <a href="https://maps.app.goo.gl/6PM7jPJvpq3W6VsU9"><i class="fa fa-map-marker-alt" aria-hidden="true"></i></a>
+ </div>
+ </div>
+</div>
+<!--------------------------------------->
+
+                   <div class="row justify-content-center" style="background-color: #FEFCEA">
+                  
+                <img class="col-6 col-lg-3 mb-0 mt-3" src="img/logotipoConCodigo.png">  
+        </div> 
+
+<!----------------------------------------------------------------------------------------->
+
+   
+	<!-- JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script src="js/index.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+</body>
+</html>

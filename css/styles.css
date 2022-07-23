@@ -1,7 +1,7 @@
  body{
   color: black;
   width: 100%;
-
+    background: #FEFCEA;
   overflow-x: hidden;
 }
 
@@ -41,7 +41,7 @@ div.container-fluid{
 
 .logo{
 width: 100%;
-background:white; 
+background:#130F0C; 
 z-index: -1;
 margin-top: 0px;
 margin-bottom: 0px;
@@ -50,11 +50,50 @@ position: center;
 }
 .menuDigital{
   margin-top: -50px;
+  font-family: 'Cormorant Garamond', serif;
+  margin-left: -39px;
+}
+.btnNav{
+  margin-top: -50px;
+  margin-left: -45px;
+}
+.asindex{
+  margin-top: -15px;
+
+}
+.aspie{
+  margin-top: 25px;
+ 
+}
+
+.textoBtn:hover{
+  color:white;
+
+  background-color:#0054AE; 
+  border-radius: 7px;  
+
+  display: flex;
+   
+    align-items: center;
+   
+}
+@media (max-width:320px){
+  
+.menuDigital{
+  font-size: 15px;
+  margin-top: -40px;
+  font-family: 'Cormorant Garamond', serif;
+  margin-left: -39px;
+}
+.btnNav{
+  margin-top: -40px;
+  margin-left: -25px;
+}
 }
 .titulo{
-  font-family: 'Archivo', sans-serif;
-  color: #7E4C0D ;
-  
+  font-family: 'Sorts Mill Goudy', serif;
+  color: #375660 ;
+  font-size: 17px;
 
 
 }
@@ -78,7 +117,7 @@ position: center;
   margin-top: 0px;
 }
 .table {
-  background: black;
+  background: #130F0C;
   position: sticky;
   color:black;
   margin-bottom: 9px;
@@ -86,15 +125,21 @@ position: center;
 }
 
 .badge{
-  background-color: black;
+  font-family: 'Nunito Sans', sans-serif;
+   background-color:#375660 ;
+   vertical-align: middle;
+}
+.precios{
+  margin-top: -30px;
 }
 .cuerpo{
 width: 100%;
+vertical-align: middle;
   background: transparent; 
-  color:#121D25;
+  color:#313D52;
 z-index: -1;
 margin-top: 0px;
-  font-family: 'Questrial', sans-serif;
+  font-family: 'Anek Kannada', sans-serif;
   font-size: 17px;
 
 
@@ -110,21 +155,43 @@ margin-top: 0px;
 .cuerpo2{
 
   font-family: 'Questrial', sans-serif;
-  font-size: 13px;
+  font-size: 12px;
+  color: #375660 ;
+  margin-top: -10px;
 
 
 
 }
-@media (max-width:320px){
+.cuerpo3{
+
+  font-family: 
   
+  font-size: 8px;
+   color:#313D52 ;
+
+}
+@media (max-width:320px){
+  .cuerpo{
+width: 100%;
+  background: transparent; 
+  color:#313D52;
+z-index: -1;
+margin-top: 0px;
+  font-family: 'Anek Kannada', sans-serif;
+  font-size: 12px;
+
+
+}
 .cuerpo2{
 
   font-family: 'Questrial', sans-serif;
-  font-size: 10px;
+  font-size: 9px;
+   color: #375660 ;
 
 }
 .badge{
   font-size: 9px;
+  background-color:#375660 ;
  
 }
 }
@@ -141,7 +208,8 @@ margin-top: 0px;
     cursor:pointer;
     width:50px;
     height:50px;
-    background-color:#909090;
+    background-color:#375660 
+;
     border-color: white;
     text-indent:-9999px;
     display:none;
@@ -161,12 +229,12 @@ margin-top: 0px;
     border-bottom-color:#ffffff;
 }
 #scroll:hover {
-    background-color:#FF3902;
+    background-color:#909090;
     opacity:1;filter:"alpha(opacity=100)";
     -ms-filter:"alpha(opacity=100)";
 }
 .pie{
-  background: black;
+  background: #130F0C;
   border-top: solid 1px white;
   margin-bottom: 0px;
   font-size: 1.1rem;
@@ -174,7 +242,7 @@ margin-top: 0px;
   position:relative;
   z-index: -1;
   text-decoration:none;
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Anek Kannada', sans-serif;
 }
 
 .piepag {
@@ -185,8 +253,8 @@ margin-top: 0px;
   font-family: 'Oleo Script Swash Caps', sans-serif;
 
 }
-.center{display:table;width:100%;background-color: black;
-margin-top:-25px;
+.center{display:table;width:100%;background-color: #130F0C;
+margin-top:-60px;
 margin-bottom:;}
 #social-test{display:table-cell;vertical-align:middle;text-align:center;font-size:30px}
 #social-test h2{color:#fff;font-family:Futura,"Trebuchet MS",Arial,sans-serif;font-weight:100}
@@ -195,3 +263,10 @@ margin-bottom:;}
 #social-test a:hover{color:#fff;border:1px solid #ccc}
 .social:hover>a{opacity:.5}
 .social:hover>a:hover{opacity:1}
+
+@media (min-width:700px){
+  
+.center{display:table;width:100%;background-color: #130F0C;
+margin-top:-120px;
+margin-bottom:;}
+}

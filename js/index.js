@@ -36,3 +36,21 @@ window.sr = ScrollReveal();
 		
 
 	});
+	sr.reveal('.logos1', {
+		delay:300,
+		duration: 1500, //tiempo
+		origin: 'top', //origen
+		distance: '0px', //distancia
+		interval:100
+
+
+	});
+	sr.reveal('.logos2', {
+		delay:500,
+		duration: 1500, //tiempo
+		origin: 'top', //origen
+		distance: '0px', //distancia
+		interval:100
+
+
+	}); 
