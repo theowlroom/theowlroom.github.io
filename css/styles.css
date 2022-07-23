@@ -66,17 +66,7 @@ position: center;
  
 }
 
-.textoBtn:hover{
-  color:white;
 
-  background-color:#0054AE; 
-  border-radius: 7px;  
-
-  display: flex;
-   
-    align-items: center;
-   
-}
 @media (max-width:320px){
   
 .menuDigital{
@@ -110,6 +100,17 @@ position: center;
   color: black;
   border-color: #121D25;
  
+}
+.textoBtn:hover{
+  color:gray;
+  
+  background-color:black; 
+  border-radius: 7px;  
+
+  display: flex;
+   
+    align-items: center;
+   
 }
 .menu{
   color: #121D25;
